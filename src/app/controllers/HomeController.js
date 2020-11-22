@@ -1,7 +1,7 @@
 class HomeController {
-    async test(req, res){
+    test(req, res) {
 
-        return res.json( { message: 'Ok' } )
+        return res.json({ message: 'Ok' })
     }
 }
 export default new HomeController()
